@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <style>
+
+       .btn
+           {
+                background-color:#00b770; 
+                color:#fff; 
+                padding:5px 10px; 
+                border-radius:5px; 
+                display:inline-block;
+                border:0;
+                cursor:pointer
+            }
+       .body
+           {
+                /* background-image: url(photo1.jpg) */
+                background-color:silver;
+           }
+       .head
+           {
+                background-color: rgb(234, 456, 369);
+                /* opacity: .6; */
+                text-align: center;
+                height: 50px;
+                margin-left: 370px;
+                top: 20px;
+                left: 370px;
+                width: 500px;
+          
+            }
+
+        .form1
+            {
+                /* content: '';
+                position: absolute;
+                transform-origin: 152% 0;
+                transform: rotate(45deg);
+                z-index: -1; */
+                /* background-image: url(steam.jpg); */
+                /* opacity: .6; */
+                width: 700px;
+                height: 600px;
+                margin-left: 265px;
+            }
+     
+            .form2
+             {
+                margin-left: 125px;     
+             }
+
+            .input-group 
+              {
+               margin: 10px 0px 10px 0px;
+              }
+
+            .input-group label 
+            {
+                display: block;
+                text-align: left;
+                margin: 3px;
+            }
+
+        .input-group input
+        {      
+                width: 350px;
+                height: 30px;
+                padding: 5px 10px;
+                font-size: 16px;
+                font-family:Arial, Helvetica, sans-serif;
+                border-radius: 5px;
+                border: 2px solid gray;
+        }
+
+        form, .content 
+        {
+                width: 370px;;
+                margin: 0px auto;
+                padding: 10px;      
+                border: 1px solid #B0C4DE;
+                background: white;
+                border-radius: 0px 0px 10px 10px;
+        }
+
+    </style>
+</head>
+<body class="body">
+    <div class="head">
+            
+            <h1>Login </h1>
+    
+    </div>
+    <br>
+    <div class="form1">
+        <form method="post" action="register.php">
+
+                <div class="input-group">
+                      <label>Username</label>
+                          <input type="text" name="username" required>
+                </div>
+
+                
+
+                <div class="input-group">
+                      <label>Password</label>
+                        <input type="password" name="password" required>
+                </div>
+
+                
+
+                <div class="input-group">
+                    <button type="submit" class="btn" name="login_user" value="Login">Register</button>
+                </div>
+   </div>
+</body>
+</html>
